@@ -36,5 +36,13 @@ header{
 /* parte principale */
 
 #grey{
-    background-color: rgb(202, 200, 200);
+    background-color: rgb(138, 138, 138);
+}
+
+.container{
+    width: 60%;
+    background-color: white;
+    border: solid 1px rgb(0, 6, 12);
+    border-radius: 5px;
+    margin: 3% auto;
 }
