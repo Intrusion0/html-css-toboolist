@@ -83,12 +83,12 @@ header{
     border: 0;
 }
 
-.prima_sezione{
+.prima_sezione, .seconda_sezione, .ultima_sezione{
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
 }
 
-.prima_sezione p{
+.prima_sezione p, .seconda_sezione p, .ultima_sezione p{
     margin-top: 10px;
 }
 
@@ -97,7 +97,16 @@ header{
     border-radius: 50%;
     content: "\2713";
     color: green;
-    margin-right: 0;
+    margin-right: 4px;
+    padding: 3px;
+}
+
+.x::before{
+    border: solid 1px red;
+    border-radius: 50%;
+    content: "\2717";
+    color: red;
+    margin-right: 4px;
     padding: 3px;
 }
 
@@ -110,10 +119,67 @@ header{
     border-radius: 30%;
     color: white;
     padding: 10px;
+    margin-left: 5px;
 }
 
-.seconda_sezione{
+.goals{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(135, 71, 194);
+    text-align: center;
+    border: solid 1px rgb(135, 71, 194);
+    border-radius: 30%;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
 
+.recruting{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(55, 201, 157);
+    text-align: center;
+    border: solid 1px rgb(55, 201, 157);
+    border-radius: 30%;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.mobile{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(253, 163, 60);
+    text-align: center;
+    border: solid 1px rgb(253, 163, 60);
+    border-radius: 30%;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.website{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(255, 100, 247);
+    text-align: center;
+    border: solid 1px rgb(255, 100, 247);
+    border-radius: 30%;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.sales{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(169, 255, 152);
+    text-align: center;
+    border: solid 1px rgb(169, 255, 152);
+    border-radius: 30%;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
 }
 
 .ultima_sezione{
