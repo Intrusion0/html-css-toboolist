@@ -8,7 +8,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(235, 235, 235);
+}
 header{
+    background-color: white;
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -35,10 +39,6 @@ header{
 
 /* parte principale */
 
-#grey{
-    background-color: rgb(235, 235, 235);
-}
-
 .container{
     width: 60%;
     background-color: white;
@@ -51,35 +51,35 @@ header{
     padding-left: 50px;
 }
 
+#button-section {
+    padding: 20px 20px 20px 50px;
+}
+
 #button_blue_paragrafo{
     color: white;
     background-color: rgb(21, 165, 255);
-    width: 150px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border: solid 1px rgb(21, 165, 255);
     border-radius: 5px;
     text-align: center;
-    margin: 20px 0 20px;
-    display: inline-block;
-    padding: 20px 60px 20px 0;
+    padding: 10px 20px;
 }
 
 #button_gray_paragrafo{
     color: rgb(226, 226, 226);
     background-color: white;
-    width: 150px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border: solid 1px rgb(226, 226, 226);
     border-radius: 5px;
     text-align: center;
-    margin: 20px 0 20px;
-    display: inline-block;
-    padding: 20px 60px 20px 0;
+    padding: 10px 20px;
 }
 
 #hr{
     background-color: rgb(235, 235, 235);
-    height: 1px;
+    height: 2px;
     border: 0;
 }
 
@@ -89,7 +89,7 @@ header{
 }
 
 .prima_sezione p, .seconda_sezione p, .ultima_sezione p{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .check::before{
@@ -120,6 +120,7 @@ header{
     color: white;
     padding: 10px;
     margin-left: 5px;
+    font-size: 10px;
 }
 
 .goals{
@@ -132,6 +133,7 @@ header{
     color: white;
     padding: 10px;
     margin-left: 5px;
+    font-size: 10px;
 }
 
 .recruting{
@@ -144,6 +146,7 @@ header{
     color: white;
     padding: 10px;
     margin-left: 5px;
+    font-size: 10px;
 }
 
 .mobile{
@@ -156,6 +159,7 @@ header{
     color: white;
     padding: 10px;
     margin-left: 5px;
+    font-size: 10px;
 }
 
 .website{
@@ -168,6 +172,7 @@ header{
     color: white;
     padding: 10px;
     margin-left: 5px;
+    font-size: 10px;
 }
 
 .sales{
@@ -180,6 +185,7 @@ header{
     color: white;
     padding: 10px;
     margin-left: 5px;
+    font-size: 10px;
 }
 
 .ultima_sezione{
