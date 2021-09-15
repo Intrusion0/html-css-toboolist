@@ -9,8 +9,9 @@
 }
 
 body {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(247, 247, 247);
 }
+
 header{
     background-color: white;
     font-family: 'Archivo Black', sans-serif;
@@ -19,8 +20,6 @@ header{
 /* intestazione */
 
 #intestazione{
-    width: 100%;
-    height: 100px;
     padding: 20px 30px;
 }
 
@@ -43,7 +42,7 @@ header{
     width: 60%;
     background-color: white;
     border: solid 1px rgb(235, 235, 235);
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 3% auto;
 }
 
@@ -51,46 +50,77 @@ header{
     padding-left: 50px;
 }
 
+/* Button */
+
 #button-section {
     padding: 20px 20px 20px 50px;
 }
 
-#button_blue_paragrafo{
+.button_main{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button_main:hover{
+    color: black;
+    background-color: red;
+    text-decoration: underline;
+}
+
+button:first-child{
     color: white;
     background-color: rgb(21, 165, 255);
-    width: 120px;
-    height: 40px;
     border: solid 1px rgb(21, 165, 255);
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px 20px;
 }
 
-#button_gray_paragrafo{
+button:last-child{
     color: rgb(226, 226, 226);
     background-color: white;
-    width: 120px;
-    height: 40px;
     border: solid 1px rgb(226, 226, 226);
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px 20px;
 }
 
+/* Divisore */
+
 #hr{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(247, 247, 247);
     height: 2px;
     border: 0;
 }
 
-.prima_sezione, .seconda_sezione, .ultima_sezione{
+/* Font Family del container */
+
+div.container{
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
 }
 
-.prima_sezione p, .seconda_sezione p, .ultima_sezione p{
-    margin-top: 15px;
+/* margine alla fine tra il paragrafo e il container */
+
+.ultima_sezione{
+    margin-bottom: 50px;
 }
+
+/* Padding dei paragrafi */
+
+.prima_sezione p, .seconda_sezione p, .ultima_sezione p{
+    padding: 10px 0 0;
+}
+
+/* aggiunta margine sopra i titoli */
+
+h2{
+    margin-top: 30px;
+}
+
+h2:hover{
+    color:darkblue;
+    font-size: 30px;
+}
+
+/* Aggiunta simbolo check */
 
 .check::before{
     border: solid 1px green;
@@ -101,7 +131,9 @@ header{
     padding: 3px;
 }
 
-.x::before{
+/* aggiunta simbolo cross */
+
+.cross::before{
     border: solid 1px red;
     border-radius: 50%;
     content: "\2717";
@@ -110,84 +142,46 @@ header{
     padding: 3px;
 }
 
-.editorial{
-    height: 30px;
-    width: 200px;
-    background-color: rgb(21, 165, 255);
-    text-align: center;
-    border: solid 1px rgb(21, 165, 255);
-    border-radius: 30%;
+/* Aggiunta dei vari riquadri */
+
+.riquadro{
+    border-radius: 20px;
     color: white;
-    padding: 10px;
+    padding: 5px 12px;
     margin-left: 5px;
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 12px;
+    vertical-align: bottom;
+}
+
+/* colori dei vari riquadri */
+
+.editorial{
+    background-color: rgb(21, 165, 255);
+    border: solid 1px rgb(21, 165, 255);
 }
 
 .goals{
-    height: 30px;
-    width: 200px;
     background-color: rgb(135, 71, 194);
-    text-align: center;
     border: solid 1px rgb(135, 71, 194);
-    border-radius: 30%;
-    color: white;
-    padding: 10px;
-    margin-left: 5px;
-    font-size: 10px;
 }
 
 .recruting{
-    height: 30px;
-    width: 200px;
     background-color: rgb(55, 201, 157);
-    text-align: center;
     border: solid 1px rgb(55, 201, 157);
-    border-radius: 30%;
-    color: white;
-    padding: 10px;
-    margin-left: 5px;
-    font-size: 10px;
 }
 
 .mobile{
-    height: 30px;
-    width: 200px;
     background-color: rgb(253, 163, 60);
-    text-align: center;
     border: solid 1px rgb(253, 163, 60);
-    border-radius: 30%;
-    color: white;
-    padding: 10px;
-    margin-left: 5px;
-    font-size: 10px;
 }
 
 .website{
-    height: 30px;
-    width: 200px;
     background-color: rgb(255, 100, 247);
-    text-align: center;
     border: solid 1px rgb(255, 100, 247);
-    border-radius: 30%;
-    color: white;
-    padding: 10px;
-    margin-left: 5px;
-    font-size: 10px;
 }
 
 .sales{
-    height: 30px;
-    width: 200px;
     background-color: rgb(128, 209, 111);
-    text-align: center;
     border: solid 1px rgb(128, 209, 111);
-    border-radius: 30%;
-    color: white;
-    padding: 10px;
-    margin-left: 5px;
-    font-size: 10px;
-}
-
-.ultima_sezione{
-    margin-bottom: 30px;
 }
