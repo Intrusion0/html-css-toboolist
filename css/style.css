@@ -50,6 +50,10 @@ header{
     padding-left: 50px;
 }
 
+span.check, span.cross{
+    margin-right: 5px;
+} 
+
 /* Button */
 
 #button-section {
@@ -107,6 +111,8 @@ div.container{
 
 .prima_sezione p, .seconda_sezione p, .ultima_sezione p{
     padding: 10px 0 0;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
 /* aggiunta margine sopra i titoli */
